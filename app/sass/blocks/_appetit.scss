@@ -1,0 +1,71 @@
+.appetit-bloc-bg {
+    background-image: url("../img/seraya-raduga.png");
+
+    // margin-top: -120px;
+    // background-position: -40px 0 0 0;
+    // background-attachment:fixed;
+
+}
+
+.appetit-bloc {
+    padding-top: 107px;
+
+}
+
+.appetit-bloc-item {
+    margin-bottom: 70px;
+    max-width: 430px;
+    max-height: auto;
+
+
+    h3 {
+
+        font-family: 'Yeseva One';
+        font-size: 36px;
+        color: #cc9900;
+        line-height: 0.67;
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+}
+
+.appetit-img {
+
+    margin: 16px 0 30px 0;
+    text-align: center;
+
+
+}
+
+.appetit-txt-item {
+    border-bottom: 1px solid #c89f2d;
+
+    h4,
+    .appetit-cena {
+        font-family: 'Yeseva One';
+        font-size: 16px;
+        color: #c89f2d;
+
+
+    }
+
+
+}
+
+.appetit-txt-item {
+    display: flex;
+    max-width: 430px;
+    justify-content: space-between;
+}
+
+.appetit-txt-p {
+    font-size: 15px;
+    color: #4c4c4c;
+}
+
+.appetit-bloc-txt {
+    margin-bottom: 37px;
+}

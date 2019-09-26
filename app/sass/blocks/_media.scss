@@ -1,0 +1,74 @@
+@media(min-width: 1039px){
+
+    //---------- heder menu burger
+      .navi-menu{
+        display: none;
+      }
+      .menu-btn-str{
+      display: none;
+    }
+
+    }
+
+
+
+
+@media(max-width: 1170px) {
+// -----------------------------heder
+    .header-menu {
+        margin-left: 4%;
+        padding: 0;
+    
+    }
+    .active {
+        display: none;   
+      }
+        // -----------------------------heder end
+
+}
+
+@media(max-width: 1040px) {
+// -----------------------------heder
+    .header-menu {
+display: none;
+    
+    }
+    .heder-title {
+        font-size: 25px;
+    }
+        // -----------------------------heder end
+}
+
+@media(max-width: 640px) {
+    //-------------- just ingredients
+    .just-bloc-img-f>img {
+       max-width: 20rem;
+    }
+    // .just-bloc-desc {
+    //     padding-bottom: 190px;
+    // }
+    .just-bloc-img {
+        margin-top: 120px;
+        margin-bottom: 60px;
+
+    }
+
+
+
+}
+@media(max-width: 370px) {
+    // -----------------------------heder
+    .heder-title{
+        font-size: 20px;
+     width: 270px;
+    }
+    .logo-img {
+        width: 100px ;
+        height: auto;
+    }
+    // -----------------------------heder end
+//----------------------- heder burger menu
+.menu-btn-span{
+    top: 25px;
+}
+}

@@ -1,0 +1,37 @@
+.fine-bg {
+    background-image: url("../img/bg-fine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 758px;
+    margin-top: -20px;
+    padding-top: 100px;
+    
+}
+
+.fine-bloc {
+
+    max-width: 570px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.726);
+    text-align: center;
+    padding-top: 83px;
+    color: #fff;
+    margin-bottom: 100px;
+    
+}
+.fine-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fine-descr {
+    max-width: 409px;
+    height: auto;
+    margin: 30px 80px 76px 80px;
+    line-height: 1.5;
+}
+
+.fine-img {
+  margin-bottom: 86px;  
+}

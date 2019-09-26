@@ -1,0 +1,174 @@
+.header-bg {
+    background-image: url("../img/bg-heder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    // margin-bottom: 139px;
+
+}
+
+.header-menu {
+    margin-left: 12%;
+
+}
+
+.header-menu>ul>a {
+    color: rgb(211, 210, 210);
+    font-size: 21px;
+    margin-left: 25px;
+    padding: 36px 0 0 0;
+    margin-top: -50px;
+    font-family: 'Yeseva One', sans-serif;
+
+}
+
+.header-menu>ul>a:hover {
+    border-top: 3px solid #fff;
+    color: #fff;
+    transition: 0.4s;
+    // will-change: transform; 
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 139px;
+
+}
+
+.logo-img {
+    width: 156px;
+    height: 92px;
+    margin-top: 10px;
+}
+
+.fab {
+    color: #dab33e;
+    font-family: FontAwesome;
+    font-size: 21px;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.header-icon {
+    margin-right: 3%;
+}
+
+.heder-title {
+    text-align: center;
+    max-width: 955px;
+    height: 201px;
+    color: #fff;
+    font-family: 'Yeseva One', sans-serif;
+
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 4px 5px 8px rgba(1, 1, 1, 0.8);
+
+}
+
+h1 {
+    margin-bottom: 34px;
+}
+
+.header-btn-bl {
+    width: 228px;
+    height: 57px;
+    font-family: Lato;
+    font-size: 18px;
+    border: solid 1px #000000;
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.8;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.header-btn-out {
+    width: 228px;
+    height: 57px;
+    font-family: Lato;
+    font-size: 18px;
+    // opacity: 1;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.397);
+    border: none;
+    cursor: pointer;
+}
+
+.header-btn {
+    margin-bottom: 142px;
+}
+
+.header-img-1 {
+    margin-bottom: 34px;
+}
+
+//----------------------------- menu burger
+
+.menu-btn-span {
+	// margin-left: 85%;
+    // margin-top: -25px;
+    top: 40px;
+	position: absolute;
+	color: #fff;;
+	font-weight: 100;
+	font-size: 30px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.menu-btn-span-none{
+	top: 0;
+	margin-left: 3%;
+	position: absolute;
+	color:#fff;
+	font-weight: 100;
+	font-size: 50px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.menu-btn-ul {
+	list-style: none;
+    background-color:  #B19941;
+    opacity: 0.95;
+	padding: 55px;   
+top: 0;
+left: 0;
+	// padding-top: 30px;
+	height: 100vh;
+	 width: 100%;
+	text-align: center;
+    position: absolute;
+    z-index: 2;
+	li {
+		padding-bottom: 15px;
+		&:hover{
+			background-color: #57323a;
+			color: #fff;
+		}
+	}
+	.menu-btn-ssa{
+		color: #272727;
+		padding-top: 15px;
+        font-weight: 900;
+        font-size: 20px;
+		text-transform: uppercase;
+		display: block;
+
+
+		&:hover{
+			color: #fff;					
+		}
+	}
+}
+
+
+
+
+//----------------------------- menu burger end

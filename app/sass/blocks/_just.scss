@@ -1,0 +1,51 @@
+.just-bloc-bg  {
+    background-image: url("../img/seraya-raduga.png");
+    min-height: auto;
+   
+}
+
+.just-bloc-wrap {
+    display: flex;
+    justify-content: space-around;  ;
+    margin-bottom: 30px;
+    flex-wrap: wrap;   
+
+    text-align: center; 
+    padding-top: 139px;              
+}
+
+.just-bloc-autor {
+    text-align: center;
+    margin-right: 36px;
+    max-width: 409px;
+  
+
+    h2 {
+
+        font-family: 'Yeseva One';
+        font-size: 36px;
+        color: #cc9900;
+        margin-bottom: 15px;
+
+    }
+
+    .just-bloc-food {
+        margin-bottom: 32px;
+    }
+
+    .just-bloc-desc {
+        max-width: 409px;
+        height: 111px;
+        font-family: 'Lato';
+        font-size: 16px;
+        line-height: 1.5;
+        color: #4c4c4c;
+        margin-bottom: 52px;
+    }
+}
+
+.just-bloc-img-f {
+max-width: 621px;
+
+height: auto;
+}
