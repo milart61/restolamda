@@ -9,11 +9,14 @@
 
 .appetit-bloc {
     padding-top: 107px;
-
+    display: flex;
+    flex-wrap: wrap;             
+    justify-content: space-between;
 }
 
 .appetit-bloc-item {
-    margin-bottom: 70px;
+    margin: 0 168px 70px 0;
+
     max-width: 430px;
     max-height: auto;
 
