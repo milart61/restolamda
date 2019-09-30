@@ -1,0 +1,91 @@
+.form-bloc-bg {
+
+    background-image: url("../img/seraya-raduga.png");
+}
+
+
+.form-bloc {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;  
+    text-align: center;  
+    padding-bottom: 110px;                
+}
+
+.form-wrapper-img>img {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.form-bloc-form {
+    max-width: 550px;
+    text-align: center;
+}
+
+.form-bloc-txt {
+   max-width: 470px;
+    h3 {
+        font-family: 'Yeseva One';
+        font-size: 36px;
+        color: #cc9900;
+        line-height: 1.2;
+        margin: 0 0 15px 0;
+        text-align: center;
+
+    }
+    .form-bloc-desc {
+        color: #4c4c4c;
+        font-family: 'Lato';
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+//----------------------------- form-mail
+.form-on {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+
+   max-width: 560px;    
+  
+}
+
+// .form-on>p>input {
+//     margin-left: 50px;
+
+// }
+.form-input {
+    width: 200px;
+    height: 36px;
+}
+
+.form-btn {
+    margin-left:50px;    
+   margin-right:50px;    
+    display:block; 
+    margin-top: 37px; 
+         
+}
+
+.form-btn>input {
+    width: 200px;
+    height: 36px;
+    background-color: #c89f2d;
+    color: #fff;
+    border: none;
+
+    cursor: pointer;
+}
+
+.form-btn>input:hover{
+    background-color: #dbae30;
+}
+
+.form-txt{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c9a131;
+}

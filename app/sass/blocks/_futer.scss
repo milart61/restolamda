@@ -1,0 +1,47 @@
+.futer-bg {
+    background-color: #191919;
+
+}
+
+.futer-dloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.futer-dloc-item {
+
+    max-width: 343px;
+    color: #fff;
+    text-align: center;
+    padding: 51px 0 72px 0;
+
+    h4 {
+        font-family: 'Yeseva One';
+
+        font-size: 21px;
+        line-height: 1.14;
+        letter-spacing: 2px;
+        color: #fefefe;
+        margin-bottom: 23px;
+    }
+
+    img {
+        margin-bottom: 23px;
+    }
+}
+.futer-txt {
+    margin-bottom: 36px;
+}
+
+.futer-icon>a>i {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.futer-icon>a>i:hover {
+    color: rgb(255, 208, 0)
+}

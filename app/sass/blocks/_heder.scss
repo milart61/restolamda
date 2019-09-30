@@ -23,13 +23,20 @@
 
 }
 
-.header-menu>ul>a:hover {
-    border-top: 3px solid #fff;
+.header-menu>ul>a:hover  {
+ 
     color: #fff;
     transition: 0.4s;
     // will-change: transform; 
 
 }
+
+.header-menu>ul>a:focus {
+    color: #fff;
+    border-top: 3px solid #fff;
+    transition: 0.5s;
+} 
+
 
 .logo {
     display: flex;
@@ -51,6 +58,11 @@
     font-size: 21px;
     text-align: justify;
     margin-left: 10px;
+}
+
+.fab:hover {
+
+    color: #ffbf00;
 }
 
 .header-icon {
@@ -88,6 +100,11 @@ h1 {
     cursor: pointer;
 }
 
+.header-btn-bl:hover{
+    background-color: #000000;
+    opacity: 1;
+}
+
 .header-btn-out {
     width: 228px;
     height: 57px;
@@ -98,6 +115,10 @@ h1 {
     background-color: rgba(255, 255, 255, 0.397);
     border: none;
     cursor: pointer;
+}
+
+.header-btn-out:hover{
+    background-color: rgba(255, 255, 255, 0.582)
 }
 
 .header-btn {
